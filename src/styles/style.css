@@ -1,8 +1,8 @@
 body {
   max-inline-size: 1440px;
   margin: 0 auto;
-  background-color: cornflowerblue;
-  color: #333;
+  background-color: #acc8f6;
+  color: #111;
   font-size: 18px;
   font-family: "Roboto";
 }
@@ -13,11 +13,23 @@ body {
   display: flex;
   justify-content: space-around;
   margin-block-end: 40px;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: "Permanent Marker";
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
 }
 
 .header__input-search {
   inline-size: 600px;
+  block-size: 30px;
   font-size: inherit;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .main {
@@ -26,6 +38,7 @@ body {
 
 .main__heading {
   color: #fff;
+  margin-block-end: 20px;
 }
 
 .columns {
@@ -37,8 +50,24 @@ body {
   grid-gap: 10px;
 }
 
+.to-do > .column__header {
+  background-color: #fc7150;
+}
+
+.in-progress > .column__header {
+  background-color: #5086fa;
+}
+
+.testing > .column__header {
+  background-color: #fdad52;
+}
+
+.done > .column__header {
+  background-color: #4fd67a;
+}
+
 .column {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   min-inline-size: 300px;
   border-radius: 10px;
 }
@@ -50,23 +79,41 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-block-end: 10px;
-  background-color: darkblue;
+  transition: 0.2s ease-in;
   color: #fff;
+}
+
+.column__button-burger {
+  background-color: transparent;
+  border: none;
+  font-size: 27px;
+  cursor: pointer;
+  transition: inherit;
+  color: inherit;
+}
+
+.column__heading {
+  transition: inherit;
+}
+
+.column__button-burger:hover,
+.column__heading:has(+ .column__button-burger:hover) {
+  color: #ccc;
 }
 
 .cards {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   padding: 10px;
 }
 
 .card {
-  border: 2px solid darkblue;
   border-radius: 10px;
   padding: 10px;
   min-height: 100px;
   width: 100%;
+  background-color: #fff;
 }
 
 .footer {
