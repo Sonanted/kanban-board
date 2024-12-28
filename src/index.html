@@ -27,7 +27,10 @@
         <li class="column to-do">
           <div class="column__header">
             <h2 class="column__heading">To Do</h2>
-            <button class="column__button-burger">≡</button>
+            <div class="column__buttons">
+              <button class="button column__button button-burger">≡</button>
+              <button class="button column__button button-add">+</button>
+            </div>
           </div>
 
           <ul class="cards">
@@ -40,11 +43,22 @@
         <li class="column in-progress">
           <div class="column__header">
             <h2 class="column__heading">In Progress</h2>
-            <button class="column__button-burger">≡</button>
+            <div class="column__buttons">
+              <button class="button column__button button-burger">≡</button>
+              <button class="button column__button button-add">+</button>
+            </div>
           </div>
 
           <ul class="cards">
-            <li class="card">CSS for kanban project</li>
+            <li class="card">
+              <h3 class="card__heading">CSS для проекта</h3>
+              <ul class="card__tags">
+                <li class="card__tag tag-project">проект</li>
+                <li class="card__tag tag-programming">программирование</li>
+              </ul>
+              <p>Тут будет смешное описание</p>
+            </li>
+
             <li class="card">Group ux/ui assignment</li>
             <li class="card">PSB TypeScript refactoring</li>
           </ul>
@@ -53,7 +67,10 @@
         <li class="column testing">
           <div class="column__header">
             <h2 class="column__heading">Testing</h2>
-            <button class="column__button-burger">≡</button>
+            <div class="column__buttons">
+              <button class="button column__button button-burger">≡</button>
+              <button class="button column__button button-add">+</button>
+            </div>
           </div>
 
           <ul class="cards">
@@ -66,7 +83,10 @@
         <li class="column done">
           <div class="column__header">
             <h2 class="column__heading">Done</h2>
-            <button class="column__button-burger">≡</button>
+            <div class="column__buttons">
+              <button class="button column__button button-burger">≡</button>
+              <button class="button column__button button-add">+</button>
+            </div>
           </div>
 
           <ul class="cards">

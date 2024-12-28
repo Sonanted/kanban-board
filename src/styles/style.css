@@ -83,21 +83,24 @@ body {
   color: #fff;
 }
 
-.column__button-burger {
+.button {
+}
+
+.column__button {
   background-color: transparent;
   border: none;
+  color: #fff;
+  cursor: pointer;
   font-size: 27px;
   cursor: pointer;
   transition: inherit;
-  color: inherit;
 }
 
 .column__heading {
   transition: inherit;
 }
 
-.column__button-burger:hover,
-.column__heading:has(+ .column__button-burger:hover) {
+.column__button:hover {
   color: #ccc;
 }
 
@@ -111,9 +114,36 @@ body {
 .card {
   border-radius: 10px;
   padding: 10px;
-  min-height: 100px;
+  min-height: 130px;
   width: 100%;
   background-color: #fff;
+}
+
+.card__heading {
+  margin-block-end: 10px;
+}
+
+.card__tags {
+  display: flex;
+  gap: 5px;
+  margin-block-end: 10px;
+}
+
+.card__tag {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 14px;
+}
+
+.tag-project {
+  background-color: darkturquoise;
+}
+
+.tag-programming {
+  background-color: slateblue;
 }
 
 .footer {
