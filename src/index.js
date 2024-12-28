@@ -1,12 +1,6 @@
 import { cardsData } from "./scripts/cards-data";
 
-const createCard = (props) => {
-  const cardTemplate = document.querySelector("#card-template").content;
-  const card = cardTemplate.querySelector(".card").cloneNode(true);
-  card.querySelector(".card__heading").textContent = props.title;
-  card.querySelector(".card__description").textContent = props.description;
-  return card;
-};
+import { createCard } from "./scripts/card";
 
 const toDo = document.querySelector(".to-do > .cards");
 const inProgress = document.querySelector(".in-progress > .cards");
