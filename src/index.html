@@ -33,11 +33,7 @@
             </div>
           </div>
 
-          <ul class="cards">
-            <li class="card">Individual ux/ui assignment</li>
-            <li class="card">CI/CD for kanban project</li>
-            <li class="card">JavaScript for kanban project</li>
-          </ul>
+          <ul class="cards"></ul>
         </li>
 
         <li class="column in-progress">
@@ -49,19 +45,7 @@
             </div>
           </div>
 
-          <ul class="cards">
-            <li class="card">
-              <h3 class="card__heading">CSS для проекта</h3>
-              <ul class="card__tags">
-                <li class="card__tag tag-project">проект</li>
-                <li class="card__tag tag-programming">программирование</li>
-              </ul>
-              <p>Тут будет смешное описание</p>
-            </li>
-
-            <li class="card">Group ux/ui assignment</li>
-            <li class="card">PSB TypeScript refactoring</li>
-          </ul>
+          <ul class="cards"></ul>
         </li>
 
         <li class="column testing">
@@ -73,11 +57,7 @@
             </div>
           </div>
 
-          <ul class="cards">
-            <li class="card">Generate idea</li>
-            <li class="card">Create repo</li>
-            <li class="card">HTML for kanban project</li>
-          </ul>
+          <ul class="cards"></ul>
         </li>
 
         <li class="column done">
@@ -89,16 +69,21 @@
             </div>
           </div>
 
-          <ul class="cards">
-            <li class="card">Go to university</li>
-            <li class="card">Find a job</li>
-            <li class="card">Complete military service</li>
-          </ul>
+          <ul class="cards"></ul>
         </li>
       </ul>
     </main>
     <footer class="footer">
       <a href="https://github.com/Sonanted" class="footer__link">Sonanted</a>
     </footer>
+
+    <template id="card-template">
+      <li class="card">
+        <h3 class="card__heading"></h3>
+        <ul class="card__tags"></ul>
+        <p class="card__description"></p>
+      </li>
+    </template>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
