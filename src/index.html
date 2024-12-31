@@ -11,75 +11,7 @@
     <title>Kanban</title>
   </head>
   <body>
-    <header class="header">
-      <p class="header__logo">Kanbanted</p>
-      <input
-        class="header__input-search"
-        type="text"
-        name=""
-        id=""
-        placeholder="Search"
-      />
-    </header>
-    <main class="main">
-      <h1 class="main__heading">Sonanted-board</h1>
-      <ul class="columns">
-        <li class="column to-do">
-          <div class="column__header">
-            <h2 class="column__heading">To Do</h2>
-            <div class="column__buttons">
-              <button class="button column__button button-burger">≡</button>
-              <button class="button column__button button-add">+</button>
-            </div>
-          </div>
-          <ul class="cards"></ul>
-        </li>
-
-        <li class="column in-progress">
-          <div class="column__header">
-            <h2 class="column__heading">In Progress</h2>
-            <div class="column__buttons">
-              <button class="button column__button button-burger">≡</button>
-              <button class="button column__button button-add">+</button>
-            </div>
-          </div>
-          <ul class="cards"></ul>
-        </li>
-
-        <li class="column testing">
-          <div class="column__header">
-            <h2 class="column__heading">Testing</h2>
-            <div class="column__buttons">
-              <button class="button column__button button-burger">≡</button>
-              <button class="button column__button button-add">+</button>
-            </div>
-          </div>
-          <ul class="cards"></ul>
-        </li>
-
-        <li class="column done">
-          <div class="column__header">
-            <h2 class="column__heading">Done</h2>
-            <div class="column__buttons">
-              <button class="button column__button button-burger">≡</button>
-              <button class="button column__button button-add">+</button>
-            </div>
-          </div>
-          <ul class="cards"></ul>
-        </li>
-      </ul>
-    </main>
-    <footer class="footer">
-      <a href="https://github.com/Sonanted" class="footer__link">Sonanted</a>
-    </footer>
-
-    <template id="card-template">
-      <li class="card">
-        <h3 class="card__heading"></h3>
-        <ul class="card__tags"></ul>
-        <p class="card__description"></p>
-      </li>
-    </template>
-    <script type="module" src="./index.js"></script>
+    <div id="root"></div>
+    <script type="module" src="./index.jsx"></script>
   </body>
 </html>

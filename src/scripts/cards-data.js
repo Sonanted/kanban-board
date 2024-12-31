@@ -1,6 +1,7 @@
 export const cardsData = [
   {
     title: "Задача",
+    status: "to-do",
     tags: [
       {
         tagName: "проект",
@@ -15,6 +16,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "to-do",
     tags: [
       {
         tagName: "проект",
@@ -29,6 +31,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "to-do",
     tags: [
       {
         tagName: "проект",
@@ -43,6 +46,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "in-progress",
     tags: [
       {
         tagName: "проект",
@@ -57,6 +61,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "in-progress",
     tags: [
       {
         tagName: "проект",
@@ -71,6 +76,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "in-progress",
     tags: [
       {
         tagName: "проект",
@@ -85,6 +91,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "testing",
     tags: [
       {
         tagName: "проект",
@@ -99,6 +106,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "testing",
     tags: [
       {
         tagName: "проект",
@@ -113,6 +121,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "testing",
     tags: [
       {
         tagName: "проект",
@@ -127,6 +136,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "done",
     tags: [
       {
         tagName: "проект",
@@ -141,6 +151,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "done",
     tags: [
       {
         tagName: "проект",
@@ -155,6 +166,7 @@ export const cardsData = [
   },
   {
     title: "Задача",
+    status: "done",
     tags: [
       {
         tagName: "проект",
