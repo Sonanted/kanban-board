@@ -1,0 +1,18 @@
+.card {
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 130px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.card__heading {
+  margin-block-end: 10px;
+}
+
+.card__tags {
+  display: flex;
+  gap: 5px;
+  margin-block-end: 10px;
+}
+

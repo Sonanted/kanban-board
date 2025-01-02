@@ -1,0 +1,17 @@
+.main {
+  margin-block-end: 40px;
+}
+
+.main__heading {
+  color: #fff;
+  margin-block-end: 20px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-x: scroll;
+
+  display: grid;
+  grid-gap: 10px;
+}

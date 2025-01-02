@@ -1,0 +1,50 @@
+.column {
+  background-color: rgba(255, 255, 255, 0.5);
+  min-inline-size: 300px;
+  border-radius: 10px;
+}
+
+.to-do > .column__header {
+  background-color: #fc7150;
+}
+
+.in-progress > .column__header {
+  background-color: #5086fa;
+}
+
+.testing > .column__header {
+  background-color: #fdad52;
+}
+
+.done > .column__header {
+  background-color: #4fd67a;
+}
+
+.column__header {
+  border-radius: inherit;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-end: 10px;
+  transition: 0.2s ease-in;
+  color: #fff;
+}
+
+.column__button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 27px;
+  cursor: pointer;
+  transition: inherit;
+}
+
+.column__heading {
+  transition: inherit;
+}
+
+.column__button:hover {
+  color: #ccc;
+}
