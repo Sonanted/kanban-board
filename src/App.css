@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  max-inline-size: 1440px;
+  margin: 0 auto;
+  background-color: #acc8f6;
+  color: #111;
+  font-size: 18px;
+  font-family: "Roboto";
+}
